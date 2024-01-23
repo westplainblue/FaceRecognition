@@ -34,7 +34,7 @@ max_history_size = 50  # 履歴の最大サイズ
 plt.ion()
 fig, ax = plt.subplots()
 
-# グローバル変数としてxdataとydataを定義
+# xdataとydataを定義
 xdata, ydata = [], []
 ln, = plt.plot([], [], 'r-', animated=True)
 
