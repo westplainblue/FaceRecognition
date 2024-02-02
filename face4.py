@@ -14,6 +14,7 @@ video_capture = cv2.VideoCapture(0)
 video_capture.set(cv2.CAP_PROP_FPS, desired_frame_rate)
 
 # 既知の顔の画像を読み込み、顔の特徴値（エンコーディング）を取得
+# 検出させたい顔の画像を同じリポジトリ内に格納させる必要がある
 aoi_image = face_recognition.load_image_file("aoi.jpg")
 aoi_face_encoding = face_recognition.face_encodings(aoi_image)[0]
 
