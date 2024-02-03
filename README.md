@@ -4,7 +4,7 @@ face3.py
 
 基本的な顔識別をするためのコード
 
-face4.py
+facerecognition.py
 
 face3.pyにリアルタイムで精度のグラフを生成するコードを追加した
 こちらが完成版になります
