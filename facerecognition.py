@@ -56,6 +56,8 @@ def update(frame):
 animation = FuncAnimation(fig, update, init_func=init, blit=True, save_count=max_history_size)
 
 frame_counter = 0
+
+# ここから顔識別を行なっていく
 while True:
     ret, frame = video_capture.read()
     rgb_frame = np.ascontiguousarray(frame[:, :, ::-1])
